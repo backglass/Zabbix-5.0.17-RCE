@@ -17,7 +17,8 @@ This repository contains a Python script (`exploit.py`) to exploit a Remote Code
 Before running the script, ensure you have **pwntools** installed. You can install it using pip:
 
 ```bash
-pip install pwntools
+pip3 install pwntools
+pip3 install requests
 ```
 
 ## Usage
@@ -64,6 +65,5 @@ The script includes a reverse shell listener powered by **pwntools**. The listen
 
 ## Disclaimer
 This tool is intended for educational and authorized penetration testing purposes only. The author does not take responsibility for any misuse of this script.
-```
 
-This `README.md` provides a comprehensive overview of the exploit and includes instructions for installation, usage, and operation. It emphasizes ethical use and provides enough detail for users to get started.
+
